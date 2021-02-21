@@ -10,7 +10,7 @@ https://discord.com/oauth2/authorize?client_id=812684290772566046&scope=bot
 
 
 ```
-!cb usage
+!cb help
 ```
 ```
 !cb author
