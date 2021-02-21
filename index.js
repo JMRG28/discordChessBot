@@ -134,6 +134,6 @@ client.on('message', msg => {
     }
 });
 
-///Bot connection
+///Bot
 
 client.login(process.env.TOKEN);
