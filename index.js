@@ -64,11 +64,6 @@ client.on('message', msg => {
                                 if (data) {
                                     let info = JSON.parse(data);
                                     let username = info.username;
-                                    let cl_rating = info.perfs['classical']['rating']
-                                    let bl_rating = info.perfs['blitz']['rating']
-                                    let pz_rating = info.perfs['puzzle']['rating']
-                                    let bu_rating = info.perfs['bullet']['rating']
-                                    let rp_rating = info.perfs['rapid']['rating']
                                     let ratingsTitles = ['classical', 'blitz', 'puzzle', 'bullet', 'rapid']
                                     let ratingsTable = []
                                     for (let r of ratingsTitles) {
